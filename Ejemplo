@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    /* Estilos del cuadro */
+    .mi-cuadro {
+      width: 450px;
+      height: 100px;
+      background-color: #f0f0f0;
+      border: 15px solid #145522;
+      padding: 50px;
+      margin: 20px;
+    }
+
+    /* Estilos del texto dentro del cuadro */
+    .mi-cuadro p {
+      font-size: 16px;
+      color: #555;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+    <h1>Demostración del modelo de caja</h1>
+    <p>El modelo de cuadro CSS es esencialmente un cuadro que envuelve cada elemento HTML. <BR>
+    Consta de bordes, relleno, márgenes y el contenido.</p>
+  <!-- Cuadro con contenido -->
+  <div class="mi-cuadro">
+    <p>Este texto es el contenido del cuadro. Hemos <br> agregado un relleno de 50 px, un margen de <br> 20 px y un borde verde de 15 px...</p>
+  </div>
+</body>
+</html>
