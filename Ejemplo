@@ -8,16 +8,16 @@
       width: 450px;
       height: 100px;
       background-color: #f0f0f0;
-      border: 15px solid #145522;
+      border: 15px solid #4f0b7c;
       padding: 50px;
       margin: 20px;
     }
 
     /* Estilos del texto dentro del cuadro */
     .mi-cuadro p {
-      font-size: 16px;
+      font-size: 20px;
       color: #555;
-      text-align: justify;
+      text-align: center;
     }
   </style>
 </head>
